@@ -1,13 +1,18 @@
-Design-of-FIR-Filters-using-hamming-window
-DESIGN OF LOW PASS AND HIGH PASS FIR DIGITAL FILTER
-AIM:
-To generate design of high pass FIR digital filter using SCILAB
+# Design-of-FIR-Filters-using-hamming-window
 
-APPARATUS REQUIRED:
-PC Installed with SCILAB
+# DESIGN OF LOW PASS AND HIGH PASS FIR DIGITAL FILTER 
 
-PROGRAM
-Low Pass FIR Filter
+# AIM: 
+          
+  To generate design of high pass FIR digital filter using SCILAB 
+
+# APPARATUS REQUIRED: 
+
+  PC Installed with SCILAB 
+
+# PROGRAM 
+# Low Pass FIR Filter
+```
 clc;
 clear;
 close;
@@ -50,7 +55,9 @@ plot(f, atan(imag(H), real(H)));
 xlabel('Normalized Frequency');
 ylabel('Phase (radians)');
 title('Phase Response');
-High Pass FIR Filter
+```
+# High Pass FIR Filter
+```
 clc;
 clear;
 close;
@@ -93,10 +100,13 @@ plot(f, atan(imag(H), real(H)));
 xlabel('Normalized Frequency');
 ylabel('Phase (radians)');
 title('Phase Response');
-OUTPUT
-Low Pass FIR Filter
-image
-High Pass FIR Filter
-image
-RESULT
-Design of high pass FIR digital filter using SCILAB is generated.
+```
+# OUTPUT
+# Low Pass FIR Filter
+<img width="763" height="659" alt="image" src="https://github.com/user-attachments/assets/9499eead-3b02-4150-9a9d-904428111683" />
+
+# High Pass FIR Filter
+<img width="762" height="606" alt="image" src="https://github.com/user-attachments/assets/0c892ffd-96fd-4b3e-b386-e847bd642ba5" />
+
+# RESULT
+   Design of high pass FIR digital filter using SCILAB is generated
